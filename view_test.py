@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
-import paddle
 from VGG import VGG
-from data_preprocess import transform_img
+import paddle
+from data_process import transform_img
 
 model = VGG(num_class=7)
 params_file_path = './models/vgg.pdparams'

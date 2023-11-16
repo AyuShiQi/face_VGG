@@ -2,7 +2,6 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
-# %matplotlib inline
 
 # 选取 test文件夹 作为图片路径
 DATADIR = 'test'

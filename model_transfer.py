@@ -9,4 +9,3 @@ model.set_state_dict(model_state_dict)
 
 net = paddle.jit.to_static(model, input_spec=[InputSpec(shape=[64, 3, 3, 3])])
 paddle.jit.save(net, './models/vgg')
-
