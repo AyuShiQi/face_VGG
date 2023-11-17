@@ -72,4 +72,3 @@ def excute_detect (path):
         return true_lab, 'angry'
     else:
         raise 'Not excepted file name'
-
